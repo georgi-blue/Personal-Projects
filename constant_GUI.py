@@ -1,3 +1,4 @@
+# This script is running with tkinter
 from tkinter import *
 
 # Creating the TKinter object with title name.
@@ -15,7 +16,7 @@ weight_e.grid(row=1, column=1)
 miles_e.grid(row=2, column=1)
 
 
-def inches():  # Function to calculate the given centimeters in the input field to inches and show the result there.
+def inches():  # Function to calculate the given centimeters in the input field to inches and show the result.
     centimeters = inches_e.get()
     cm = float(centimeters)
     inches_e.delete(0, END)
@@ -31,7 +32,7 @@ def pounds():  # Function to calculate the given kilograms in the input field to
     weight_e.insert(0, str(result))
 
 
-def miles():  # Function to calculate the given miles in the input field to miles and show the result.
+def miles():  # Function to calculate the given kilometers in the input field to miles and show the result.
     kilometers = miles_e.get()
     km = float(kilometers)
     miles_e.delete(0, END)
