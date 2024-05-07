@@ -55,4 +55,4 @@ my_button1.grid(row=0, column=2)
 my_button2.grid(row=1, column=2)
 my_button4.grid(row=2, column=2)
 
-root.mainloop()  # Main Loop for the properly working.
+root.mainloop()  # Main Loop the program.
